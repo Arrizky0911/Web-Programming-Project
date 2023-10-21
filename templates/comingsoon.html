@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+    <style>
+      body, html {
+        height: 100%;
+    }
+
+    .topnav a .split {
+        float: right;
+    }
+    a > .beranda {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* The hero image */
+    .hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images\ \(3\).jpeg");
+
+      /* Set a specific height */
+      height: 100%;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Place text in the middle of the image */
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary height">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img class="beranda" src="../assets/1200px-Manchester_United_FC_crest.svg.png" alt="Manchester United Fan Base"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ol class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="comingsoon.html">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comingsoon.html">Community</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="comingsoon.html">Events</a></li>
+                  <li><a class="dropdown-item" href="comingsoon.html">Merchandise</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="comingsoon.html">Booking Cave</a></li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <div class="topnav nav-item">
+              <a class="nav-link active split" aria-current="page" href="login/login.html">Login</a>
+          </div>
+        </div>
+    </nav>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Coming Soon</h1>
+      </div>
+    </div>
+   
+</body>
+</html>

@@ -3,92 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="../static/footer.css">
+    <style>
+    html  {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    }
+
+    /*? footer reset */
+    *, *::after, *::before {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .footer-bottom {
+    text-align: center;
+    border-top: 1px solid var(
+        --text-gray
+    );
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    padding: 4px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    .footer-bottom > small {
+        font-size: 16px;
+        margin: 0;
+    }
+    @media (max-width: 800px) {
+        .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: space-between;
+        justify-content: center;
+        margin: 0 auto;
+        }
+    }
+
+    </style>
 </head>
 <body>
-    <footer>
-        <div class="footer-line"></div>
-        <div class="footer-wrapper">
-            <div class="footer-columns">
-                <section class="footer-logo">
-                    <h2 class="hide"></h2>
-                </section>
-                <section>
-                    <h3>Profil</h3>
-                    <ul>
-                        <li>
-                            <h4>Email</h4>
-                        </li>
-                        <li>
-                            <h4>Instagram</h4>
-                        </li>
-                        <li>
-                            <h4>LinkedIn</h4>
-                        </li>
-                        <li>
-                            <h4>GitHub</h4>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Atha</h3>
-                    <ul>
-                        <li>
-                            <a href="#" title="Support">Support</a>
-                        </li>
-                        <li>
-                            <a href="#" title="Sitemap">Sitemap</a>
-                        </li>
-                        <li>
-                            <a href="#" title="Help Centre">Help Centre</a>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Irsyad</h3>
-                    <ul>
-                        <li>
-                            <a href="#" title="Atha">
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Irsyad">
-                             
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Adhit">
-                                
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Adith</h3>
-                    <ul>
-                        <li>
-                            <p title="email">arrizkyaditha@gmail.com</p>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/arrizky.adith/" title="Instagram">
-                               @arrizky.adith
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/muhammad-arrizky-adhita-azizi-64878b21a" title="Adhit">
-                                Muhammad Arrizky A A
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Arrizky0911" title="Adhit">
-                                Arrizky0911
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-    </footer>
+    <div class="footer-bottom">
+        <small>© Man United Fan Base Ltd. 2023, All rights reserved</small>
+    </div>
 </body>
 </html>
