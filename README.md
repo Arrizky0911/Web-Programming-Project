@@ -1,2 +1,2 @@
-# Web-Programming-Project
-Project Web Programmming
+# MidTerm Project of Web Programming Course
+
